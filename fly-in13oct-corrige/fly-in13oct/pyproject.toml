@@ -1,0 +1,19 @@
+[project]
+name = "fly-in13oct"
+description = "Fly-in drone simulation"
+readme = "README.md"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "pygame>=2.6.1",
+]
+
+[dependency-groups]
+dev = [
+    "flake8>=7.4.1",
+    "flake8-docstrings>=1.7.0",
+    "mypy>=2.4.0",
+]
+
+[tool.uv]
+package = false
